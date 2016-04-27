@@ -10,25 +10,14 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top">
   		<div class="container top">
     		<div class="logo"><h1><%= link_to "Infanticide", root_path %></h1></div>
-    		<div class="dropdown nav navbar-nav navbar-right">
-			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			    About
-			    <span class="caret"></span>
-			  </button>
-			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    <li><%= link_to "Thomas Fogg", thomas_path %></li>
-			    <li><%= link_to "Donald Merckle", donald_path %></li>
-			    <li><a href="#">Name 3</a></li>
-			    <li role="separator" class="divider"></li>
-			    <li><%= link_to "Citations", citations_path%></li>
-			  </ul>
-			</div>
+    		
     		<ul class="nav navbar-nav navbar-right">
     			<li><%= link_to "History", history_path %></li>
 	    		<li><%= link_to "Religion", religion_path %></li>
 	    		<li><%= link_to "Mexico", mexico_path%></li>
 	    		<li><%= link_to "Europe", europe_path%></li>
 	    		<li><%= link_to "China", china_path%></li>
+	    		<li><%= link_to "Citations", citations_path%></li>
 	    	</ul>
   		</div>
 	</nav>
