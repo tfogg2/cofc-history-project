@@ -1,0 +1,56 @@
+.right{
+	float: right;
+}
+.logo{
+	float:left;
+}
+.logo a{
+	text-decoration: none;
+	color:#fcfcfc;
+}
+.navbar-right{
+	margin-top: 20px;
+
+}
+.navbar-inverse, .navbar-nav, li a{
+	color: #fcfcfc;
+}
+.thomas{
+	height: 400px;
+	margin: 0px auto 0px auto;
+	border-bottom: 3px #fff;
+}
+body{
+	background: #006680;
+}
+.wline{
+	height:5px;
+	background: #e6faff;
+
+}
+.dropdown{
+	margin: 25px 0px 0px 10px;
+}
+.subjects{
+	width:1000px;
+	height: auto;
+	min-height: 600px;
+	background: #fcfcfc;
+	margin:70px auto 0px auto;
+	padding: 30px 30px;
+	text-align: center;
+}
+.subjects p{
+	text-indent: 30px;
+	text-align: left;
+}
+.subjects img{
+	width: 400px;
+	height: 480px;
+}
+.top{
+	width: 1000px;
+}
+.content{
+
+}
