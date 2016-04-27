@@ -57,6 +57,9 @@ Infanticide::Application.configure do
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = "http://assets.example.com"
 
+  # Enable serving of images, stylesheets, and JavaScripts from an asset server.
+  config.action_controller.asset_host = 'https://infanticide2016.herokuapp.com'
+
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
   # config.assets.precompile += %w( search.js )
@@ -77,4 +80,8 @@ Infanticide::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  config.action_controller.asset_host = 'https://infanticide2016.herokuapp.com'
+  config.action_mailer.asset_host = 'https://infanticide2016.herokuapp.com'
+  config.action_mailer.default_url_options = { :host => 'herokuapp.com' }
 end
